@@ -24,6 +24,11 @@ p {
     margin-bottom: 25px;
 }
 
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
 .centered {
     text-align: center;
 }
@@ -119,4 +124,56 @@ h1 {
     font-size: 25px;
 }
 
-#dg
+#dg {
+    background: #e0e0e0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align:center;
+}
+
+#dg h4 {
+    font-size: 40px;
+}
+
+.wb {
+   padding-top: 35px;
+   margin-bottom:
+}
+
+.wb h4 {
+    font-size: 35px;
+}
+
+#lg {
+    background: #ebebeb;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+#lg h4 {
+    font-size: 45px;
+
+}
+
+#r {
+    background: #e0e0e0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#r h4 {
+    color: white;
+}
+
+/* Carousel styles */
+
+.carousel-inner .item {
+    min-height: 500px;
+    background-size: cover;
+    background-position:  center;
+}
+
+.carousel-inner .item h3 {
+    color: white;
+}
